@@ -1,4 +1,5 @@
 ## Welcome to GitHub Pages
+何清傻逼，战地玩的屎一样。
 
 You can use the [editor on GitHub](https://github.com/RoyalChelsea/royal/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
