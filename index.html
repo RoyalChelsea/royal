@@ -1,1 +1,32 @@
-这是我的第一个网页
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaSript的用法</title>
+<script>
+//alert("你好，菜鸟");//弹出网页窗口
+var id=setInterval(//定时器，传入id，前为函数，后时间毫秒
+
+function my_alert(){
+	confirm("你好，菜鸟");
+	
+},10000);
+
+document.write("<h1>这是一个标题</h1>");
+document.write("<p>这是一个段落</p>");
+function MyFunction(){
+	var p=document.getElementById("demo");
+	p.innerHTML="suprise";
+	}
+</script>
+</head>
+<body>
+<p id="demo">这是一个按钮，<br>按下会有惊喜</p>
+<button type="button" onclick="MyFunction();">按下</button>
+<a herf="javascript:alert("");"></a>
+<p>
+你只能在HTML输出六种使用<strong>documentwrite</strong>
+如果你在文档加载后使用它（比如函数），会覆盖整个文档。
+</p>
+</body>
+</html>
